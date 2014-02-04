@@ -18,4 +18,5 @@ So our custom script should do the following:
 * generate a text output with the query with code formatting and the result in a jira formatted table with header
 
 
-
+**Writing a plugin script**
+There are at least two supported languages: lua and python. I chose python. There is not much documentation, but I found this page, which does something similar to what we want to do.
