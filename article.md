@@ -62,17 +62,16 @@ I use markdown as markup language. Pelican supports others, at least REST. But M
 
 OK, having your own top level domain seems cool, but the administration overhead is just too much me. But feel free to host your project on any webserver you want. Since you only have to deal with static pages, there should not be much trouble. No database, no scripting language, etc. Just use FTP in stead of git to bring the current content online.
 
-When you hot your blog on github, you can use all the power of github, you automatically have an issue tracker, other people can collaborate, make suggestions, fix typos, even write own article and send them to you - all via git. And you get to learn some parts of git or github, you might not have encountered elsewhere
+When you hot your blog on github, you can use all the power of github, you automatically have an issue tracker, other people can collaborate, make suggestions, fix typos, even write own article and send them to you - all via git. And you get to learn some parts of git or github, you might not have encountered elsewhere.
 
 **Comments**
 
-Comments are the only part that should be dynamic on a blog. If you dont want any comments, just skip this part. I found two comment provider. First is Disqus, second is Google+. Disqus is already integrated in pelican, just setup an account at disqus and enter the account name in your pelican.conf.
+Comments are the only part that should be dynamic on a blog. If you dont want any comments, just skip this part. I found two comment providers. First is Disqus, second is Google+. Disqus is already integrated in pelican, just setup an account at disqus and enter the account name in your pelican.conf.
 
-Setting up the google+ comment connection is a bit harder. It works like this. First install this plugin for pelican:
-``yadayada``
+Setting up the google+ comment connection is a bit harder. It works like this. Here is a blog entry with intructions how to do it. Since many people don't want to comment via Google+ or don't want a Google+ Account at all, I will stick to disqus. (Fun fact: Disqus is written in python and one of the largest Django Websites out there).
 
 **Themes**
 
-Right now you are using the default template for your blog. You dont have to. there is plenty of material out there you can easily use. I will write up later how to do that. Right now I just want to bring this online.
+Right now you are using the default template for your blog. You don't have to. there is plenty of material out there you can easily use. I will write up later how to do that. Right now I just want to bring this online.
 
 
