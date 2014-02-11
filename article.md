@@ -29,17 +29,16 @@ Setting up pelican is really easy, there is good documentation. To give you a sm
 
 I have a special folder where I keep all my virtualenv, I created one for my blog there:
 
-``virtualenv pelican``
+    virtualenv pelican
 
 Then activate it:
 
-``source pelican/bin/activate``
+    source pelican/bin/activate
 
 Install all the needed python packages. In my case I needed pelican and markdown:
 
-`` pip install pelican ``
-
-`` pip install markdown``
+    pip install pelican
+    pip install markdown
 
 Move to your output directory.
 I assume, you already created a repository named "<you_account>.github.io". Clone this to the output folder:
@@ -73,5 +72,22 @@ Setting up the google+ comment connection is a bit harder. It works like this. H
 **Themes**
 
 Right now you are using the default template for your blog. You don't have to. there is plenty of material out there you can easily use. I will write up later how to do that. Right now I just want to bring this online.
+
+** Including code examples **
+
+    :::python
+    import test
+    print("this is a test")
+
+By identing code with 4 spaces or tab pelican and markdown will do the rest. Syntsax highlighting can be done by prefixing the code with ``:::python`` or any other supported language. The example above looks like this in the source:
+
+    ____:::python
+    ____import test
+    ____print("this is a test")
+
+with _ representing a space. Really simple!
+
+
+
 
 

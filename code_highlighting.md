@@ -3,7 +3,7 @@ Date: 2013-12-27
 Category: blog
 Tags: blog, pelican
 Author: berend
-Summary: Code highlighting
+Summary: Code highlighting, how to display code in pelican generated websites
 
 
 **Code Highlighting **
