@@ -87,6 +87,11 @@ By identing code with 4 spaces or tab pelican and markdown will do the rest. Syn
 
 with _ representing a space. Really simple!
 
+** Include images **  
+Here is a small image: 
+
+{% img  img/testpicture.png [Testpicture ] %}
+
 
 
 
